@@ -14,7 +14,7 @@ a_truck.wheels = wheels.Wheels(domains.wheel.Wheel(), domains.wheel.Wheel(), dom
 print(a_truck.name)
 print("-----------")
 
-truck_yaml = "\n".join([re.sub(r" ?!!python/.*$", "", l) for l in yaml.dump(a_truck).splitlines()])
+truck_yaml = "\n".join([re.sub(r" ?!!python/.*$", "", item) for item in yaml.dump(a_truck).splitlines()])
 
 print(truck_yaml)
 stream = io.open('document.yaml', 'w')
