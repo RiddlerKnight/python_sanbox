@@ -9,8 +9,5 @@ sys.path.append(SOURCE_PATH)
 
 from ex_simple_func import __main__ as init_module
 
-def main():
+def test_ex_simple_func():
     assert init_module.main() == "Works"
-
-if __name__ == "__main__":
-    main()
