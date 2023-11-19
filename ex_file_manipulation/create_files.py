@@ -4,5 +4,5 @@ for _ in range(3):
     names.append(new_name)
 
 with open("names.txt", 'w') as file:
-    for name in names:
+    for name in sorted(names):
         file.write(f"{name}\n")
