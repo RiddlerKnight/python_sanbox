@@ -11,3 +11,7 @@ BaseException \
 +-- Exception \
 &nbsp;&nbsp;+-- ArithmeticError \
 &nbsp;&nbsp;&nbsp;&nbsp;+-- ZeroDivisionError
+
+## What is @property
+
+To impose that is a protected instance. It's similar to {get;} in c#

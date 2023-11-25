@@ -8,8 +8,8 @@ class Truck:
                  wheels: Wheels = None):
         self.profile = profile
         self.additional = additional
-        self.name = name
-        self.color = color
+        self._name = name
+        self._color = color
         self.wheels = wheels
 
     '''
@@ -17,3 +17,11 @@ class Truck:
     '''
     def __str__(self) -> str:
         return "A Truck"
+
+    @property
+    def name(self):
+        return self._name
+    
+    @property
+    def name(self):
+        return self._color
