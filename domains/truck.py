@@ -11,3 +11,9 @@ class Truck:
         self.name = name
         self.color = color
         self.wheels = wheels
+
+    '''
+    if you didn't specify this method, you will got a mem address.
+    '''
+    def __str__(self) -> str:
+        return "A Truck"
