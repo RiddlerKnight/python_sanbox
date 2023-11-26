@@ -12,10 +12,11 @@ class Truck:
         self._color = color
         self.wheels = wheels
 
-    '''
-    if you didn't specify this method, you will got a mem address.
-    '''
+    
     def __str__(self) -> str:
+        '''
+        if you didn't specify this method, you will got a mem address.
+        '''
         return "A Truck"
 
     @property

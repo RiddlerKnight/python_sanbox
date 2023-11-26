@@ -7,10 +7,11 @@ class Vault:
     def __str__(self) -> str:
         return f"{self.galleons} Galleons, {self.sickles} Sickles, {self.knuts} Knuts"
     
-    '''
-    Example of overload
-    '''
+    
     def __add__(self, other):
+        '''
+        Example of overload
+        '''
         galleons = self.galleons + other.galleons
         sickles = self.sickles + other.sickles
         knuts = self.knuts + other.knuts
