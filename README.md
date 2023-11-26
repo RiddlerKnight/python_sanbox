@@ -15,3 +15,7 @@ BaseException \
 ## What is @property
 
 To impose that is a protected instance. It's similar to {get;} in c#
+
+## Type check with mypy
+
+you can use `mypy` to do type checking. By the way, you need to provide type hint in the code.
